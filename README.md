@@ -15,15 +15,20 @@ and gene expression signatures, and facilitates comparative analysis of
 the same cell type across conditions. For more information and
 applications of NicheScribe, see our accompanying manuscript…
 
-NicheScribe: - extracts \`\`nonhematopoietic’’ cells based on an
-extensive reference atlas spanning whole bone marrow, hematopoietic stem
-and progenitor cells (HSPCs), and stromal compartments (central marrow
-and endosteum), - classifies stromal cells using either 1. a reference
-derived from 10 FACS-purified stromal populations, or 2. a manually
-curated reference based on key marker genes, - projects stromal cells
-onto a reference UMAP embedding for easy visualization, and - scores
-inflammation state in leptin receptor-positive mesenchymal stromal cells
-(MSC-L) using the top 100 differentially upregulated genes.
+NicheScribe:
+
+- extracts “nonhematopoietic” cells based on an extensive reference
+  atlas spanning whole bone marrow, hematopoietic stem and progenitor
+  cells (HSPCs), and stromal compartments (central marrow and
+  endosteum),
+- classifies stromal cells using either
+  1.  a reference derived from 10 FACS-purified stromal populations, or
+  2.  a manually curated reference based on key marker genes,
+- projects stromal cells onto a reference UMAP embedding for easy
+  visualization, and
+- scores inflammation state in leptin receptor-positive mesenchymal
+  stromal cells (MSC-L) using the top 100 differentially upregulated
+  genes.
 
 ## Installation
 
@@ -38,7 +43,11 @@ After installation, you will be prompted to download the reference data
 from the [latest
 release](https://github.com/RabadanLab/NicheScribe/releases) when you
 load the package. This is **required** for the package to function
-properly.
+properly. Run the following command:
+
+``` r
+download_reference()
+```
 
 ## Example
 
