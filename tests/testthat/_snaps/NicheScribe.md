@@ -330,17 +330,17 @@
       
       $manual
       AAGCATCTCGTGGGAA-1_1_1 ACCGTTCAGTTTCAGC-1_1_1 ATCATTCTCTGTTCAT-1_1_1 
-                      "OPr3"         "CM_Type_H_EC"                     NA 
+                "Osteo_MSCL"         "CM_Type_H_EC"                     NA 
       ATCGTAGAGCGAGTAC-1_1_1 CAACGATAGATCCAAA-1_1_1 CAGTTCCTCCGGCAGT-1_1_1 
                           NA              "CM_MSCL"                     NA 
       CTCCACATCCAATGCA-1_1_1 CTCCCTCCAGGGCTTC-1_1_1 CTGTGGGCACACCTAA-1_1_1 
-                   "CM_MSCL"              "CM_MSCL"                 "OPr3" 
+                   "CM_MSCL"              "CM_MSCL"           "Osteo_MSCL" 
       GAAGCCCTCTCTCTTC-1_1_1 GCACGGTGTATGAGCG-1_1_1 GCATCTCTCGAAGCCC-1_1_1 
                           NA                     NA              "CM_MSCL" 
       GCATTAGTCTCAGTCC-1_1_1 GGAACCCGTGCCCGTA-1_1_1 GTACAACAGATCACCT-1_1_1 
                           NA                     NA              "CM_MSCL" 
       TACATTCCAAAGCTCT-1_1_1 TCAGCCTAGCACTGGA-1_1_1 TCAGGTATCATTACTC-1_1_1 
-             "CM_Type_L_SEC"                 "OPr3"              "CM_MSCL" 
+             "CM_Type_L_SEC"           "Osteo_MSCL"              "CM_MSCL" 
       TCATGAGGTGGGTATG-1_1_1 TCCTCCCAGACCAGAC-1_1_1 TCTAACTCAGCCTATA-1_1_1 
              "CM_Type_L_SEC"                 "OPr3"              "CM_MSCL" 
       TTACCGCAGCATGCGA-1_1_1 TTGAGTGCAGCTTCCT-1_1_1 AACTTCTAGCCTAGGA-1_2_1 
@@ -372,7 +372,7 @@
       GAAACCTGTACGCTTA-1_2_1 GATGCTACAGTTTGGT-1_2_1 GATTTCTCACAACATC-1_2_1 
                       "OPr3"             "Pericyte"                 "OPr1" 
       GCACTAAGTTGATGTC-1_2_1 GCAGCTGGTAACTTCG-1_2_1 GCATCGGTCGAGGCAA-1_2_1 
-                 "Endo_MSCL"            "Endo_MSCL"                 "OPr3" 
+                 "Endo_MSCL"            "Endo_MSCL"           "Osteo_MSCL" 
       GCATCTCGTGTATTGC-1_2_1 GCCAGGTAGTCACTAC-1_2_1 GGAATGGAGAGAGGTA-1_2_1 
             "Endo_Type_H_EC"                 "MSCS"                 "MSCS" 
       GGAGAACCATGTGCCG-1_2_1 GGGAAGTCACACGTGC-1_2_1 GGGTCTGCACACCTAA-1_2_1 
@@ -384,7 +384,7 @@
       TAATTCCGTGGTTCTA-1_2_1 TACGGTAGTAGTAAGT-1_2_1 TCACTCGTCAGTCACA-1_2_1 
                       "OPr2"         "CM_Type_H_EC"            "Endo_MSCL" 
       TCATATCAGCATTTGC-1_2_1 TCGATTTGTCGAGATG-1_2_1 TCGGGTGAGTTCCGGC-1_2_1 
-                      "OPr3"             "Pericyte"              "Doublet" 
+                "Osteo_MSCL"             "Pericyte"              "Doublet" 
       TCTAACTAGGAATTAC-1_2_1 TCTCAGCTCTTGAGCA-1_2_1 TGCCGAGCAACGCATT-1_2_1 
                       "CPr2"            "Endo_MSCL"                 "OPr1" 
       TGTTCTAGTCTTCAAG-1_2_1 TTCTTCCTCAGACCTA-1_2_1 TTGGGATTCGAAGGAC-1_2_1 
@@ -484,7 +484,7 @@
       GTTAGACGTTGACTGT-1_2_3 TAACCAGTCTTGTTAC-1_2_3 TAACGACAGGTCGCCT-1_2_3 
                           NA                 "CPr1"                  "FPr" 
       TACGCTCCACTTGACA-1_2_3 TCCCATGTCTCTTGCG-1_2_3 TCCTAATAGTACCCTA-1_2_3 
-                      "OPr2"                 "OPr3"            "Type_R_EC" 
+                      "OPr2"           "Osteo_MSCL"            "Type_R_EC" 
       TCGGGACAGTAGGGTC-1_2_3 TCTCACGAGGTTCCAT-1_2_3 TGTGCGGCAAACTGCT-1_2_3 
                           NA                     NA                  "FPr" 
       TTACAGGTCACACGAT-1_2_3 TTACCATAGTTGGAAT-1_2_3 TTCATGTAGACAAGCC-1_2_3 

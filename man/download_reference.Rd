@@ -2,13 +2,17 @@
 % Please edit documentation in R/download_data.R
 \name{download_reference}
 \alias{download_reference}
-\title{Download reference data}
+\title{Download NicheScribe reference data}
 \usage{
-download_reference(dataDir = NA)
+download_reference(force = FALSE)
 }
 \arguments{
-\item{dataDir}{Specifies where the reference data should be downloaded. Should essentially never be altered by the user directly since the package looks for the data in a specific location.}
+\item{force}{Logical. If `TRUE`, forces a re-download even if the data is already up-to-date and validated. Defaults to `FALSE`.}
+}
+\value{
+Invisible `TRUE` if successful.
 }
 \description{
-Downloads the reference data from the GitHub repo.
+Downloads and installs the required reference datasets for
+NicheScribe from GitHub. File integrity is verified via SHA256 checksums.
 }

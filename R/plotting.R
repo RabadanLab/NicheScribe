@@ -16,6 +16,7 @@
 .colsR22 <- c(
   "CM_MSCL" = "#0CB702",
   "Endo_MSCL" = "palegreen",
+  "Osteo_MSCL" = "darkgreen",
   "MSCS" = "purple",
   "OPr1" = "#FF61CC",
   "OPr2" = "violetred",
@@ -32,6 +33,7 @@
   "Endo_Type_L_SEC" = "pink3",
   "Type_R_EC" = "orange"
 )
+
 
 #' NicheScribe UMAP plotting function
 #'
@@ -76,7 +78,8 @@ NichePlot <- function(query, layer = c("R2.1", "R2.2"), ...) {
       ylim = c(-15, 15)
     ) +
     ggplot2::scale_x_continuous(breaks = c(-10, -5, 0, 5, 10)) +
-    ggplot2::scale_y_continuous(breaks = c(-15, -10, -5, 0, 5, 10, 15))
+    ggplot2::scale_y_continuous(breaks = c(-15, -10, -5, 0, 5, 10, 15)) +
+    ggplot2::ggtitle(paste0("NicheScribe - ", layer))
 }
 
 #' NicheScribe iMSC-L score plotting function
@@ -118,7 +121,8 @@ InflammationPlot <- function(query, group = NULL, ...) {
             ylim = c(-15, 15)
           ) +
           ggplot2::scale_x_continuous(breaks = c(-10, -5, 0, 5, 10)) +
-          ggplot2::scale_y_continuous(breaks = c(-15, -10, -5, 0, 5, 10, 15))
+          ggplot2::scale_y_continuous(breaks = c(-15, -10, -5, 0, 5, 10, 15)) +
+          ggplot2::ggtitle("iMSC-L score")
       )
     )
   }

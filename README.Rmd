@@ -18,7 +18,7 @@ knitr::opts_chunk$set(
 <!-- badges: start -->
 <!-- badges: end -->
 
-**NicheScribe** is a hierarchical classifier for murine bone marrow stromal cells based on 10x single cell RNA-sequencing (scRNA-seq) data. This approach permits rapid, consistent, accurate, and generalizable annotation of stromal cell types by leveraging curated reference atlases and gene expression signatures, and facilitates comparative analysis of the same cell type across conditions. For more information and applications of NicheScribe, see our accompanying manuscript...
+**NicheScribe** is a hierarchical classifier for murine bone marrow stromal cells based on 10x single cell RNA-sequencing (scRNA-seq) data. Our approach permits rapid, consistent, accurate, and generalizable annotation of stromal cell types by leveraging curated reference atlases and gene expression signatures, and facilitates comparative analysis of the same cell type across conditions. For more information and applications of NicheScribe, see our accompanying manuscript...
 
 NicheScribe:
 
@@ -27,7 +27,7 @@ NicheScribe:
   1. a reference derived from 10 FACS-purified stromal populations, or
   2. a manually curated reference based on key marker genes, 
 * projects stromal cells onto a reference UMAP embedding for easy visualization, and
-* scores inflammation state in leptin receptor-positive mesenchymal stromal cells (MSC-L) using the top 100 differentially upregulated genes.
+* scores inflammation state in leptin receptor-positive mesenchymal stromal cells (MSC-L) from differentially upregulated genes.
 
 ## Installation
 
@@ -46,20 +46,23 @@ download_reference()
 
 ## Example
 
-We demonstrate NicheScribe using a stromal-enriched bone marrow dataset from [Baccin et al. (2020)](https://doi.org/10.1038/s41556-019-0439-6). The input to NicheScribe is a [Seurat v5](https://satijalab.org/seurat/) object with a `counts` matrix in the `RNA` assay.
+We demonstrate NicheScribe using a stromal-enriched bone marrow dataset from [Swann et al. (2026)](https://doi.org/10.1182/blood.2025029513). The input to NicheScribe is a [Seurat v5](https://satijalab.org/seurat/) object with a `counts` matrix in the `RNA` assay.
 
-```{r example-baccin2020, warning=FALSE, cache=TRUE}
+```{r example-swann2026, warning=FALSE, cache=TRUE}
 library(NicheScribe)
 suppressPackageStartupMessages(library(Seurat))
 
-# Load Baccin et al. dataset from GEO.
-url <- "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE122nnn/GSE122465/suppl/GSE122465_FilteredCounts10x.csv.gz"
+# Load Swann et al. (2026) dataset from GEO.
+options(timeout = 1000)
+set3.endo <- ReadMtx(
+  cells = "https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSM8505738&format=file&file=GSM8505738%5F3EM%5Fbarcodes%2Etsv%2Egz",
+  features = "https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSM8505738&format=file&file=GSM8505738%5F3EM%5Ffeatures%2Etsv%2Egz",
+  mtx = "https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSM8505738&format=file&file=GSM8505738%5F3EM%5Fmatrix%2Emtx%2Egz"
+)
 
-counts <- data.table::fread(url)
-mat <- as.matrix(counts[, -1])
-rownames(mat) <- counts[[1]]
+seu <- CreateSeuratObject(set3.endo, project="Swann2026_endo")
 
-seu <- CreateSeuratObject(mat)
+# Normally, the usual data preprocessing and quality control steps are run here but we omit them for brevity.
 
 # Run NicheScribe
 seu <- NicheScribe(seu)
@@ -70,7 +73,8 @@ table(seu$hash_label_pred)
 table(seu$manual_annot_pred)
 
 # Visualize results
-NichePlot(seu)
+NichePlot(seu, layer="R2.1")
+NichePlot(seu, layer="R2.2")
 InflammationPlot(seu)
 ```
 

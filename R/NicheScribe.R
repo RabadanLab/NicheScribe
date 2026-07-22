@@ -105,7 +105,7 @@ score_imscl_ucell <- function(query, genes) {
 #' @export
 NicheScribe <- function(query, do_normalize=TRUE, do_umap=TRUE) {
   if (!all(c("R1", "R2", "imscl_genes", "umap_model") %in% ls(NicheScribeData))) {
-    get_data()
+    load_data()
   }
 
   if (do_normalize) {
@@ -141,7 +141,6 @@ NicheScribe <- function(query, do_normalize=TRUE, do_umap=TRUE) {
   if (do_umap) {
     rlang::inform("Running UMAP")
 
-    withr::local_options(list(future.globals.maxSize = 2 * 1024^3))
     query.nonhem <- withCallingHandlers(
       Seurat::IntegrateEmbeddings(
         anchorset=stroma.preds$anchors,
