@@ -1,3 +1,7 @@
+# NicheScribe 0.3.0
+
+* Updated cell type labels
+
 # NicheScribe 0.2.0
 
 * Updated NicheScribe reference.
