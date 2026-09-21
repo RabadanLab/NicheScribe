@@ -180,7 +180,7 @@
       TACATTCCAAAGCTCT-1_1_1 TCAGCCTAGCACTGGA-1_1_1 TCAGGTATCATTACTC-1_1_1 
                     "CM_SEC"              "CM_MSCL"              "CM_MSCL" 
       TCATGAGGTGGGTATG-1_1_1 TCCTCCCAGACCAGAC-1_1_1 TCTAACTCAGCCTATA-1_1_1 
-                    "CM_SEC"             "Endo_OPr"            "Endo_MSCL" 
+                    "CM_SEC"    "Endo_CD24_neg_MPr"            "Endo_MSCL" 
       TTACCGCAGCATGCGA-1_1_1 TTGAGTGCAGCTTCCT-1_1_1 AACTTCTAGCCTAGGA-1_2_1 
                  "Endo_MSCL"                     NA             "Endo_AEC" 
       AAGACAAGTTCTCGCT-1_2_1 AAGGTAACATCCTGTC-1_2_1 AAGGTAATCCGGCAAC-1_2_1 
@@ -188,27 +188,27 @@
       AAGTACCAGATCCCAT-1_2_1 AATCGTGGTCCACACG-1_2_1 ACCACAATCAAGTCGT-1_2_1 
                  "Endo_mMPr"            "Endo_MSCL"                     NA 
       ACGGTCGTCTATGTGG-1_2_1 AGAACCTGTACGTGTT-1_2_1 AGATAGACACCTAAAC-1_2_1 
-                  "Endo_OPr"             "Endo_OPr"             "Endo_OPr" 
+         "Endo_CD24_neg_MPr"    "Endo_CD24_neg_MPr"    "Endo_CD24_neg_MPr" 
       AGATCCATCTCGTTTA-1_2_1 AGGATCTCAACCTATG-1_2_1 AGGTGTTCAAGCTGCC-1_2_1 
-                 "Endo_mMPr"             "Endo_OPr"            "Endo_MSCS" 
+                 "Endo_mMPr"    "Endo_CD24_neg_MPr"            "Endo_MSCS" 
       AGTCATGTCGGTGTTA-1_2_1 ATCGGATGTCCTTAAG-1_2_1 ATCGGCGGTTACTCAG-1_2_1 
-                 "Endo_mMPr"             "Endo_OPr"             "Endo_OPr" 
+                 "Endo_mMPr"    "Endo_CD24_neg_MPr"    "Endo_CD24_neg_MPr" 
       ATCGTGAGTTGCAAGG-1_2_1 ATGGAGGAGGACAACC-1_2_1 ATTCACTCACATGTTG-1_2_1 
-                  "Endo_OPr"            "Endo_MSCL"             "Endo_OPr" 
+         "Endo_CD24_neg_MPr"            "Endo_MSCL"    "Endo_CD24_neg_MPr" 
       CAATACGTCAAGAGTA-1_2_1 CACCAAAAGTTGCTCA-1_2_1 CACGAATCATAACGGG-1_2_1 
-                  "Endo_OPr"             "Endo_OPr"             "Endo_OPr" 
+         "Endo_CD24_neg_MPr"    "Endo_CD24_neg_MPr"    "Endo_CD24_neg_MPr" 
       CATCCACCAACCGGAA-1_2_1 CATGCCTTCCGATAAC-1_2_1 CATTCCGTCTGCAGCG-1_2_1 
-                 "Endo_MSCL"             "Endo_OPr"             "Endo_OPr" 
+                 "Endo_MSCL"    "Endo_CD24_neg_MPr"    "Endo_CD24_neg_MPr" 
       CCCTGATAGCGGATCA-1_2_1 CCCTGATTCTGGAGAG-1_2_1 CCGTGAGGTCGTGTTA-1_2_1 
-                  "Endo_OPr"             "Endo_OPr"            "Endo_MSCL" 
+         "Endo_CD24_neg_MPr"    "Endo_CD24_neg_MPr"            "Endo_MSCL" 
       CCTAAGAAGCATCCCG-1_2_1 CCTATCGTCACCTCAC-1_2_1 CCTGTTGAGGCTCACC-1_2_1 
-                  "Endo_OPr"            "Endo_MSCL"             "Endo_OPr" 
+         "Endo_CD24_neg_MPr"            "Endo_MSCL"    "Endo_CD24_neg_MPr" 
       CGACAGCCACTCACTC-1_2_1 CGAGGCTAGCGGTATG-1_2_1 CTACTATAGGGACCAT-1_2_1 
-                 "Endo_MSCS"            "Endo_MSCL"             "Endo_OPr" 
+                 "Endo_MSCS"            "Endo_MSCL"    "Endo_CD24_neg_MPr" 
       CTCCAACCAATTGTGC-1_2_1 CTGCCTAAGTCTGCAT-1_2_1 CTTCTCTAGTTGAAAC-1_2_1 
                  "Endo_MSCS"            "Endo_MSCS"            "Endo_MSCL" 
       GAAACCTGTACGCTTA-1_2_1 GATGCTACAGTTTGGT-1_2_1 GATTTCTCACAACATC-1_2_1 
-                  "Endo_OPr"             "Endo_OPr"            "Endo_mMPr" 
+         "Endo_CD24_neg_MPr"    "Endo_CD24_neg_MPr"            "Endo_mMPr" 
       GCACTAAGTTGATGTC-1_2_1 GCAGCTGGTAACTTCG-1_2_1 GCATCGGTCGAGGCAA-1_2_1 
                  "Endo_MSCL"            "Endo_MSCL"              "CM_MSCL" 
       GCATCTCGTGTATTGC-1_2_1 GCCAGGTAGTCACTAC-1_2_1 GGAATGGAGAGAGGTA-1_2_1 
@@ -216,17 +216,17 @@
       GGAGAACCATGTGCCG-1_2_1 GGGAAGTCACACGTGC-1_2_1 GGGTCTGCACACCTAA-1_2_1 
                  "Endo_MSCL"                     NA            "Endo_MSCL" 
       GGTAACTGTAACGCGA-1_2_1 GTCGTAAAGCGATTCT-1_2_1 GTTCGCTGTATGAAAC-1_2_1 
-                  "Endo_OPr"             "Endo_OPr"             "Endo_AEC" 
+         "Endo_CD24_neg_MPr"    "Endo_CD24_neg_MPr"             "Endo_AEC" 
       GTTCGCTGTCCCTCAT-1_2_1 GTTGTAGGTCTACAGT-1_2_1 TAAGTCGTCTGCCTGT-1_2_1 
-                  "Endo_OPr"             "Endo_OPr"            "Endo_mMPr" 
+         "Endo_CD24_neg_MPr"    "Endo_CD24_neg_MPr"            "Endo_mMPr" 
       TAATTCCGTGGTTCTA-1_2_1 TACGGTAGTAGTAAGT-1_2_1 TCACTCGTCAGTCACA-1_2_1 
                  "Endo_mMPr"             "Endo_AEC"            "Endo_MSCL" 
       TCATATCAGCATTTGC-1_2_1 TCGATTTGTCGAGATG-1_2_1 TCGGGTGAGTTCCGGC-1_2_1 
-                  "Endo_OPr"             "Endo_OPr"             "Endo_CPr" 
+         "Endo_CD24_neg_MPr"    "Endo_CD24_neg_MPr"    "Endo_CD24_pos_MPr" 
       TCTAACTAGGAATTAC-1_2_1 TCTCAGCTCTTGAGCA-1_2_1 TGCCGAGCAACGCATT-1_2_1 
-                  "Endo_OPr"            "Endo_MSCL"            "Endo_MSCL" 
+         "Endo_CD24_neg_MPr"            "Endo_MSCL"            "Endo_MSCL" 
       TGTTCTAGTCTTCAAG-1_2_1 TTCTTCCTCAGACCTA-1_2_1 TTGGGATTCGAAGGAC-1_2_1 
-                 "Endo_MSCL"            "Endo_MSCL"             "Endo_OPr" 
+                 "Endo_MSCL"            "Endo_MSCL"    "Endo_CD24_neg_MPr" 
       TTTGTTGTCTCGGTCT-1_2_1 AAGACTCCAGGATTCT-1_1_2 AAGCGTTAGCTGTGCC-1_1_2 
                           NA                     NA                     NA 
       AGACAGGGTGGCTACC-1_1_2 AGCTCAATCGTAGTGT-1_1_2 AGGACGACAGACCTAT-1_1_2 
@@ -262,11 +262,11 @@
       CACTTCGAGCCACCGT-1_2_2 CCACGTTTCGCTGTCT-1_2_2 CGACAGCAGTAGGATT-1_2_2 
                           NA            "Endo_mMPr"            "Endo_mMPr" 
       CGCATAAGTACTCCGG-1_2_2 CGCGTGAAGTGCACCC-1_2_2 CGCGTGAGTTGCATGT-1_2_2 
-                          NA            "Endo_MSCS"             "Endo_CPr" 
+                          NA            "Endo_MSCS"    "Endo_CD24_pos_MPr" 
       CTAGACACATATGAAG-1_2_2 CTCATTATCCCTCTAG-1_2_2 GAACTGTCAACGACAG-1_2_2 
-                          NA                     NA             "Endo_OPr" 
+                          NA                     NA    "Endo_CD24_neg_MPr" 
       GAATCACCATTGACAC-1_2_2 GAATCGTTCATCCTGC-1_2_2 GATTCTTAGTGCAGGT-1_2_2 
-                  "Endo_OPr"            "Endo_mMPr"                     NA 
+         "Endo_CD24_neg_MPr"            "Endo_mMPr"                     NA 
       GGACGTCGTTGAGGAC-1_2_2 GGGAGTAAGACCAAAT-1_2_2 GGGATCCAGATTGACA-1_2_2 
                           NA                     NA                     NA 
       GGTGATTGTTCGAAGG-1_2_2 GTAATGCCAACTGCTA-1_2_2 TACATTCTCCGATTAG-1_2_2 
@@ -296,11 +296,11 @@
       TAGAGTCCAACGGGTA-1_1_3 TATGTTCAGGCTAACG-1_1_3 TGAGCATTCCAGCAAT-1_1_3 
                  "Endo_MSCL"                     NA                     NA 
       TGGGAGACAACGACTT-1_1_3 TTACCATTCCTTCACG-1_1_3 TTCATGTTCGCCAGAC-1_1_3 
-                  "Endo_OPr"                     NA                     NA 
+         "Endo_CD24_neg_MPr"                     NA                     NA 
       TTGACCCAGTCGCGAA-1_1_3 AATTTCCCACAAGCCC-1_2_3 ACAACCAGTAAGGAGA-1_2_3 
                     "CM_SEC"                     NA               "CM_SEC" 
       ACCATTTGTGTCCGGT-1_2_3 AGAAGCGGTGGCAACA-1_2_3 AGAGAATGTAATGCTC-1_2_3 
-                 "Endo_MSCS"                     NA             "Endo_OPr" 
+                 "Endo_MSCS"                     NA    "Endo_CD24_neg_MPr" 
       AGCCAATGTGTAGCAG-1_2_3 AGGAATATCAAGGTGG-1_2_3 AGTGATCTCTCATGGA-1_2_3 
                  "Endo_mMPr"            "Endo_mMPr"                     NA 
       AGTTAGCAGGATAATC-1_2_3 ATGGAGGAGCTCACTA-1_2_3 ATTCCTACAGTAGATA-1_2_3 
@@ -310,43 +310,43 @@
       CATGCGGAGAAGAACG-1_2_3 CATTCTAAGCGACCCT-1_2_3 CCAATTTAGTAAGAGG-1_2_3 
                  "Endo_MSCL"            "Endo_MSCL"            "Endo_mMPr" 
       CGAAGGAAGGGAACAA-1_2_3 CTAACCCTCAACTCTT-1_2_3 CTAAGTGTCATCGCAA-1_2_3 
-                  "Endo_OPr"            "Endo_MSCS"                     NA 
+         "Endo_CD24_neg_MPr"            "Endo_MSCS"                     NA 
       CTCAATTAGTTCACTG-1_2_3 CTCCCTCAGGCTATCT-1_2_3 CTGTCGTCATCCCGTT-1_2_3 
                           NA             "Endo_AEC"            "Endo_MSCS" 
       GAATCGTAGAGCATTA-1_2_3 GACCCAGTCCAGCAAT-1_2_3 GAGACCCAGCCTCAGC-1_2_3 
-                          NA            "Endo_mMPr"             "Endo_OPr" 
+                          NA            "Endo_mMPr"    "Endo_CD24_neg_MPr" 
       GATGCTAGTTTGCAGT-1_2_3 GCAACATTCGATTTCT-1_2_3 GCCAGCAAGGCCCACT-1_2_3 
                           NA             "Endo_AEC"                     NA 
       GGGAGTATCTGGAGAG-1_2_3 GGGTCACGTCACCACG-1_2_3 GTGTAACAGTATGAGT-1_2_3 
-                  "Endo_CPr"                     NA                     NA 
+         "Endo_CD24_pos_MPr"                     NA                     NA 
       GTTAGACGTTGACTGT-1_2_3 TAACCAGTCTTGTTAC-1_2_3 TAACGACAGGTCGCCT-1_2_3 
-                          NA             "Endo_CPr"            "Endo_MSCS" 
+                          NA    "Endo_CD24_pos_MPr"            "Endo_MSCS" 
       TACGCTCCACTTGACA-1_2_3 TCCCATGTCTCTTGCG-1_2_3 TCCTAATAGTACCCTA-1_2_3 
                  "Endo_mMPr"              "CM_MSCL"             "Endo_AEC" 
       TCGGGACAGTAGGGTC-1_2_3 TCTCACGAGGTTCCAT-1_2_3 TGTGCGGCAAACTGCT-1_2_3 
                           NA                     NA            "Endo_MSCS" 
       TTACAGGTCACACGAT-1_2_3 TTACCATAGTTGGAAT-1_2_3 TTCATGTAGACAAGCC-1_2_3 
-                          NA             "Endo_OPr"             "Endo_OPr" 
+                          NA    "Endo_CD24_neg_MPr"    "Endo_CD24_neg_MPr" 
       
       $manual
       AAGCATCTCGTGGGAA-1_1_1 ACCGTTCAGTTTCAGC-1_1_1 ATCATTCTCTGTTCAT-1_1_1 
-                "Osteo_MSCL"         "CM_Type_H_EC"                     NA 
+                "Osteo_MSCL"                 "hEC1"                     NA 
       ATCGTAGAGCGAGTAC-1_1_1 CAACGATAGATCCAAA-1_1_1 CAGTTCCTCCGGCAGT-1_1_1 
-                          NA              "CM_MSCL"                     NA 
+                          NA                 "MSCL"                     NA 
       CTCCACATCCAATGCA-1_1_1 CTCCCTCCAGGGCTTC-1_1_1 CTGTGGGCACACCTAA-1_1_1 
-                   "CM_MSCL"              "CM_MSCL"           "Osteo_MSCL" 
+                      "MSCL"                 "MSCL"           "Osteo_MSCL" 
       GAAGCCCTCTCTCTTC-1_1_1 GCACGGTGTATGAGCG-1_1_1 GCATCTCTCGAAGCCC-1_1_1 
-                          NA                     NA              "CM_MSCL" 
+                          NA                     NA                 "MSCL" 
       GCATTAGTCTCAGTCC-1_1_1 GGAACCCGTGCCCGTA-1_1_1 GTACAACAGATCACCT-1_1_1 
-                          NA                     NA              "CM_MSCL" 
+                          NA                     NA                 "MSCL" 
       TACATTCCAAAGCTCT-1_1_1 TCAGCCTAGCACTGGA-1_1_1 TCAGGTATCATTACTC-1_1_1 
-             "CM_Type_L_SEC"           "Osteo_MSCL"              "CM_MSCL" 
+                     "lsEC1"           "Osteo_MSCL"                 "MSCL" 
       TCATGAGGTGGGTATG-1_1_1 TCCTCCCAGACCAGAC-1_1_1 TCTAACTCAGCCTATA-1_1_1 
-             "CM_Type_L_SEC"                 "OPr3"              "CM_MSCL" 
+                     "lsEC1"                 "OPr3"                 "MSCL" 
       TTACCGCAGCATGCGA-1_1_1 TTGAGTGCAGCTTCCT-1_1_1 AACTTCTAGCCTAGGA-1_2_1 
-                   "CM_MSCL"                     NA       "Endo_Type_H_EC" 
+                      "MSCL"                     NA                 "hEC2" 
       AAGACAAGTTCTCGCT-1_2_1 AAGGTAACATCCTGTC-1_2_1 AAGGTAATCCGGCAAC-1_2_1 
-                  "Pericyte"            "Endo_MSCL"            "Endo_MSCL" 
+                  "Pericyte"           "Adipo_MSCL"           "Adipo_MSCL" 
       AAGTACCAGATCCCAT-1_2_1 AATCGTGGTCCACACG-1_2_1 ACCACAATCAAGTCGT-1_2_1 
                       "OPr1"                 "CPr1"                     NA 
       ACGGTCGTCTATGTGG-1_2_1 AGAACCTGTACGTGTT-1_2_1 AGATAGACACCTAAAC-1_2_1 
@@ -364,7 +364,7 @@
       CCCTGATAGCGGATCA-1_2_1 CCCTGATTCTGGAGAG-1_2_1 CCGTGAGGTCGTGTTA-1_2_1 
                       "CPr2"                 "OPr1"                 "OPr1" 
       CCTAAGAAGCATCCCG-1_2_1 CCTATCGTCACCTCAC-1_2_1 CCTGTTGAGGCTCACC-1_2_1 
-                  "Pericyte"              "CM_MSCL"             "Pericyte" 
+                  "Pericyte"                 "MSCL"             "Pericyte" 
       CGACAGCCACTCACTC-1_2_1 CGAGGCTAGCGGTATG-1_2_1 CTACTATAGGGACCAT-1_2_1 
                       "MSCS"                 "CPr1"                 "OPr3" 
       CTCCAACCAATTGTGC-1_2_1 CTGCCTAAGTCTGCAT-1_2_1 CTTCTCTAGTTGAAAC-1_2_1 
@@ -372,23 +372,23 @@
       GAAACCTGTACGCTTA-1_2_1 GATGCTACAGTTTGGT-1_2_1 GATTTCTCACAACATC-1_2_1 
                       "OPr3"             "Pericyte"                 "OPr1" 
       GCACTAAGTTGATGTC-1_2_1 GCAGCTGGTAACTTCG-1_2_1 GCATCGGTCGAGGCAA-1_2_1 
-                 "Endo_MSCL"            "Endo_MSCL"           "Osteo_MSCL" 
+                "Adipo_MSCL"           "Adipo_MSCL"           "Osteo_MSCL" 
       GCATCTCGTGTATTGC-1_2_1 GCCAGGTAGTCACTAC-1_2_1 GGAATGGAGAGAGGTA-1_2_1 
-            "Endo_Type_H_EC"                 "MSCS"                 "MSCS" 
+                      "hEC2"                 "MSCS"                 "MSCS" 
       GGAGAACCATGTGCCG-1_2_1 GGGAAGTCACACGTGC-1_2_1 GGGTCTGCACACCTAA-1_2_1 
-                      "OPr1"                     NA            "Endo_MSCL" 
+                      "OPr1"                     NA           "Adipo_MSCL" 
       GGTAACTGTAACGCGA-1_2_1 GTCGTAAAGCGATTCT-1_2_1 GTTCGCTGTATGAAAC-1_2_1 
-                      "CPr2"                 "OPr1"            "Type_R_EC" 
+                      "CPr2"                 "OPr1"                  "rEC" 
       GTTCGCTGTCCCTCAT-1_2_1 GTTGTAGGTCTACAGT-1_2_1 TAAGTCGTCTGCCTGT-1_2_1 
                       "CPr2"                 "CPr2"                 "OPr2" 
       TAATTCCGTGGTTCTA-1_2_1 TACGGTAGTAGTAAGT-1_2_1 TCACTCGTCAGTCACA-1_2_1 
-                      "OPr2"         "CM_Type_H_EC"            "Endo_MSCL" 
+                      "OPr2"                 "hEC1"           "Adipo_MSCL" 
       TCATATCAGCATTTGC-1_2_1 TCGATTTGTCGAGATG-1_2_1 TCGGGTGAGTTCCGGC-1_2_1 
                 "Osteo_MSCL"             "Pericyte"              "Doublet" 
       TCTAACTAGGAATTAC-1_2_1 TCTCAGCTCTTGAGCA-1_2_1 TGCCGAGCAACGCATT-1_2_1 
-                      "CPr2"            "Endo_MSCL"                 "OPr1" 
+                      "CPr2"           "Adipo_MSCL"                 "OPr1" 
       TGTTCTAGTCTTCAAG-1_2_1 TTCTTCCTCAGACCTA-1_2_1 TTGGGATTCGAAGGAC-1_2_1 
-                 "Endo_MSCL"            "Endo_MSCL"                 "OPr3" 
+                "Adipo_MSCL"           "Adipo_MSCL"                 "OPr3" 
       TTTGTTGTCTCGGTCT-1_2_1 AAGACTCCAGGATTCT-1_1_2 AAGCGTTAGCTGTGCC-1_1_2 
                           NA                     NA                     NA 
       AGACAGGGTGGCTACC-1_1_2 AGCTCAATCGTAGTGT-1_1_2 AGGACGACAGACCTAT-1_1_2 
@@ -404,7 +404,7 @@
       CTACAGACACAACGAG-1_1_2 CTCCATGCACAGCTTA-1_1_2 CTTGATTCAGCTTTCC-1_1_2 
                           NA                     NA                     NA 
       CTTTCAACATTATGCG-1_1_2 CTTTCGGGTACTAACC-1_1_2 GAAGGGTGTAGAGTTA-1_1_2 
-                          NA        "CM_Type_L_SEC"                     NA 
+                          NA                "lsEC1"                     NA 
       GAGAAATAGCTCATAC-1_1_2 GATTCTTCACATTACG-1_1_2 GCGAGAAGTAGTCTTG-1_1_2 
                           NA                     NA                     NA 
       GCGATCGCATCTGCGG-1_1_2 GGAAGTGCAGGTGTTT-1_1_2 GGGTGTCGTCTACATG-1_1_2 
@@ -436,37 +436,37 @@
       TATATCCCATGAAGGC-1_2_2 TCATGCCTCTCCTGAC-1_2_2 TCATGTTTCTATGTGG-1_2_2 
                           NA                     NA             "Pericyte" 
       TCGGGACGTATGCAAA-1_2_2 TGACGCGTCAGTCTTT-1_2_2 TGATGGTAGGGCCTCT-1_2_2 
-                          NA            "Type_R_EC"                     NA 
+                          NA                  "rEC"                     NA 
       TGGTGATCAGCCTTCT-1_2_2 TTCTCTCCAGAGGTAC-1_2_2 AAACCCATCTCCTACG-1_1_3 
-                      "OPr2"                     NA              "CM_MSCL" 
+                      "OPr2"                     NA                 "MSCL" 
       ACGGTTAAGCTTGTGT-1_1_3 ACTGTGATCGACGCTG-1_1_3 ACTTATCCAATTAGGA-1_1_3 
-                          NA              "CM_MSCL"                     NA 
+                          NA                 "MSCL"                     NA 
       AGTTCGAGTGGTTTGT-1_1_3 ATGCGATTCTCCGAAA-1_1_3 CAACGGCTCGCAGAGA-1_1_3 
-              "CM_Type_H_EC"              "CM_MSCL"                     NA 
+                      "hEC1"                 "MSCL"                     NA 
       CAGCAATCATCCGATA-1_1_3 CAGGTATCATTGTAGC-1_1_3 CCTCAACAGTGCCCGT-1_1_3 
-                          NA                     NA              "CM_MSCL" 
+                          NA                     NA                 "MSCL" 
       CGCCAGAGTTCGGCGT-1_1_3 CTACGGGAGGCTGAAC-1_1_3 CTGCAGGGTACCCACG-1_1_3 
-                          NA                     NA        "CM_Type_L_SEC" 
+                          NA                     NA                "lsEC1" 
       CTGGCAGAGCCATCCG-1_1_3 GACCCAGAGAAGAACG-1_1_3 GGAGCAACAAACACCT-1_1_3 
-             "CM_Type_L_SEC"                     NA                     NA 
+                     "lsEC1"                     NA                     NA 
       GGATCTACATTGCTGA-1_1_3 GGGAAGTTCTTGCGCT-1_1_3 GGGCTCACAATTGGTC-1_1_3 
-                   "CM_MSCL"              "CM_MSCL"                     NA 
+                      "MSCL"                 "MSCL"                     NA 
       GGGTTATTCCAACCGG-1_1_3 GGTCACGAGGAGGTTC-1_1_3 GTCGCGAAGCGTTGTT-1_1_3 
                           NA                     NA                     NA 
       TAACTTCTCCAAGAGG-1_1_3 TACAACGCAGGCTCTG-1_1_3 TACCGAAGTCTACTGA-1_1_3 
-                          NA            "Type_R_EC"              "CM_MSCL" 
+                          NA                  "rEC"                 "MSCL" 
       TAGAGTCCAACGGGTA-1_1_3 TATGTTCAGGCTAACG-1_1_3 TGAGCATTCCAGCAAT-1_1_3 
-                   "CM_MSCL"                     NA                     NA 
+                      "MSCL"                     NA                     NA 
       TGGGAGACAACGACTT-1_1_3 TTACCATTCCTTCACG-1_1_3 TTCATGTTCGCCAGAC-1_1_3 
                       "CPr2"                     NA                     NA 
       TTGACCCAGTCGCGAA-1_1_3 AATTTCCCACAAGCCC-1_2_3 ACAACCAGTAAGGAGA-1_2_3 
-             "CM_Type_L_SEC"                     NA         "CM_Type_H_EC" 
+                     "lsEC1"                     NA                 "hEC1" 
       ACCATTTGTGTCCGGT-1_2_3 AGAAGCGGTGGCAACA-1_2_3 AGAGAATGTAATGCTC-1_2_3 
                        "FPr"                     NA                 "OPr3" 
       AGCCAATGTGTAGCAG-1_2_3 AGGAATATCAAGGTGG-1_2_3 AGTGATCTCTCATGGA-1_2_3 
                       "OPr2"                  "FPr"                     NA 
       AGTTAGCAGGATAATC-1_2_3 ATGGAGGAGCTCACTA-1_2_3 ATTCCTACAGTAGATA-1_2_3 
-                          NA        "CM_Type_L_SEC"                     NA 
+                          NA                "lsEC1"                     NA 
       CAAAGAAGTTGACTGT-1_2_3 CACGTTCTCGCATAGT-1_2_3 CATCCACAGTCATGGG-1_2_3 
                       "MSCS"                     NA                 "MSCS" 
       CATGCGGAGAAGAACG-1_2_3 CATTCTAAGCGACCCT-1_2_3 CCAATTTAGTAAGAGG-1_2_3 
@@ -474,17 +474,17 @@
       CGAAGGAAGGGAACAA-1_2_3 CTAACCCTCAACTCTT-1_2_3 CTAAGTGTCATCGCAA-1_2_3 
                       "CPr2"                  "FPr"                     NA 
       CTCAATTAGTTCACTG-1_2_3 CTCCCTCAGGCTATCT-1_2_3 CTGTCGTCATCCCGTT-1_2_3 
-                          NA       "Endo_Type_H_EC"                  "FPr" 
+                          NA                 "hEC2"                  "FPr" 
       GAATCGTAGAGCATTA-1_2_3 GACCCAGTCCAGCAAT-1_2_3 GAGACCCAGCCTCAGC-1_2_3 
                           NA                 "OPr1"                 "OPr3" 
       GATGCTAGTTTGCAGT-1_2_3 GCAACATTCGATTTCT-1_2_3 GCCAGCAAGGCCCACT-1_2_3 
-                          NA            "Type_R_EC"                     NA 
+                          NA                  "rEC"                     NA 
       GGGAGTATCTGGAGAG-1_2_3 GGGTCACGTCACCACG-1_2_3 GTGTAACAGTATGAGT-1_2_3 
                       "CPr2"                     NA                     NA 
       GTTAGACGTTGACTGT-1_2_3 TAACCAGTCTTGTTAC-1_2_3 TAACGACAGGTCGCCT-1_2_3 
                           NA                 "CPr1"                  "FPr" 
       TACGCTCCACTTGACA-1_2_3 TCCCATGTCTCTTGCG-1_2_3 TCCTAATAGTACCCTA-1_2_3 
-                      "OPr2"           "Osteo_MSCL"            "Type_R_EC" 
+                      "OPr2"           "Osteo_MSCL"                  "rEC" 
       TCGGGACAGTAGGGTC-1_2_3 TCTCACGAGGTTCCAT-1_2_3 TGTGCGGCAAACTGCT-1_2_3 
                           NA                     NA                  "FPr" 
       TTACAGGTCACACGAT-1_2_3 TTACCATAGTTGGAAT-1_2_3 TTCATGTAGACAAGCC-1_2_3 
