@@ -88,20 +88,20 @@ table(seu$nonhematopoietic_pred)
 #>             3348             2569
 table(seu$hash_label_pred)
 #> 
-#>    CM_AEC   CM_MSCL    CM_SEC  Endo_AEC  Endo_CPr Endo_mMPr Endo_MSCL Endo_MSCS 
-#>        41       155        20       223       103       192       526       550 
-#>  Endo_OPr  Endo_SEC 
-#>       688        71
+#>            CM_AEC           CM_MSCL            CM_SEC          Endo_AEC 
+#>                41               155                20               223 
+#> Endo_CD24_neg_MPr Endo_CD24_pos_MPr         Endo_mMPr         Endo_MSCL 
+#>               688               103               192               526 
+#>         Endo_MSCS          Endo_SEC 
+#>               550                71
 table(seu$manual_annot_pred)
 #> 
-#>             AEC         CM_MSCL    CM_Type_H_EC   CM_Type_L_SEC            CPr1 
-#>              56             170              26              27             153 
-#>            CPr2         Doublet       Endo_MSCL  Endo_Type_H_EC Endo_Type_L_SEC 
-#>             191              59             431              52              31 
-#>             FPr            MSCS            OPr1            OPr2            OPr3 
-#>             144             403             197             263              14 
-#>      Osteo_MSCL        Pericyte       Type_R_EC 
-#>              46             152             154
+#> Adipo_MSCL        aEC       CPr1       CPr2    Doublet        FPr       hEC1 
+#>        431         56        153        191         59        144         26 
+#>       hEC2      lsEC1      lsEC2       MSCL       MSCS       OPr1       OPr2 
+#>         52         27         31        170        403        197        263 
+#>       OPr3 Osteo_MSCL   Pericyte        rEC 
+#>         14         46        152        154
 
 # Visualize results
 NichePlot(seu, layer="R2.1")

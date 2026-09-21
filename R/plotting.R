@@ -5,8 +5,8 @@
   "Endo_MSCL" = "palegreen",
   "Endo_MSCS" = "purple",
   "Endo_mMPr" = "orange",
-  "Endo_OPr" = "red",
-  "Endo_CPr" = "darkturquoise",
+  "Endo_CD24_neg_MPr" = "red",
+  "Endo_CD24_pos_MPr" = "darkturquoise",
   "CM_SEC" = "#F8766D",
   "Endo_AEC" = "#ABA300",
   "Endo_SEC" = "navy",
@@ -14,8 +14,8 @@
 )
 
 .colsR22 <- c(
-  "CM_MSCL" = "#0CB702",
-  "Endo_MSCL" = "palegreen",
+  "MSCL" = "#0CB702",
+  "Adipo_MSCL" = "palegreen",
   "Osteo_MSCL" = "darkgreen",
   "MSCS" = "purple",
   "OPr1" = "#FF61CC",
@@ -25,15 +25,14 @@
   "CPr2" = "mediumturquoise",
   "FPr" = "plum1",
   "Pericyte" = "slateblue",
-  "AEC" = "#ABA300",
-  "CM_Type_L_SEC" = "#F8766D",
-  "Endo_Type_H_EC" = "navy",
+  "aEC" = "#ABA300",
+  "lsEC1" = "#F8766D",
+  "hEC2" = "navy",
   "Doublet" = "black",
-  "CM_Type_H_EC" = "skyblue",
-  "Endo_Type_L_SEC" = "pink3",
-  "Type_R_EC" = "orange"
+  "hEC1" = "skyblue",
+  "lsEC2" = "pink3",
+  "rEC" = "orange"
 )
-
 
 #' NicheScribe UMAP plotting function
 #'
