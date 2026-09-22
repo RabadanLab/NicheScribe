@@ -129,7 +129,7 @@ NicheScribe <- function(query, do_normalize=TRUE, do_umap=TRUE) {
   query$manual_annot_pred[rownames(stroma.preds$preds.manual_annot)] <- stroma.preds$preds.manual_annot$predicted.id
   query$manual_annot_pred_score[rownames(stroma.preds$preds.manual_annot)] <- stroma.preds$preds.manual_annot$prediction.score.max
 
-  query.mscl <- subset(query, cells=SeuratObject::Cells(query)[query$hash_label_pred %in% c("CM_MSCL", "Endo_MSCL") | query$manual_annot_pred %in% c("CM_MSCL", "Endo_MSCL")])
+  query.mscl <- subset(query, cells=SeuratObject::Cells(query)[query$hash_label_pred %in% c("CM_MSCL", "Endo_MSCL") | query$manual_annot_pred %in% c("MSCL", "Adipo_MSCL", "Osteo_MSCL")])
   imscl.scores <- score_imscl_ucell(query.mscl, genes=NicheScribeData$imscl_genes)
 
   query$iMSCL_score <- NA_real_
