@@ -1,6 +1,7 @@
 # NicheScribe 0.3.1
 
 * Updated README.
+* Fixed query.mscl bug.
 
 # NicheScribe 0.3.0
 
