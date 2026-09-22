@@ -12,8 +12,8 @@ stromal cells based on 10x single cell RNA-sequencing (scRNA-seq) data.
 Our approach permits rapid, consistent, accurate, and generalizable
 annotation of stromal cell types by leveraging curated reference atlases
 and gene expression signatures, and facilitates comparative analysis of
-the same cell type across conditions. For more information and
-applications of NicheScribe, see our accompanying manuscript…
+the same cell type across conditions.
+<!-- For more information and applications of NicheScribe, see our accompanying manuscript... -->
 
 NicheScribe:
 
@@ -54,6 +54,14 @@ We demonstrate NicheScribe using a stromal-enriched bone marrow dataset
 from [Swann et al. (2026)](https://doi.org/10.1182/blood.2025029513).
 The input to NicheScribe is a [Seurat v5](https://satijalab.org/seurat/)
 object with a `counts` matrix in the `RNA` assay.
+
+Note that you may run into out-of-memory errors when working with
+moderately large scRNA-seq datasets, especially in the UMAP projection
+step. We suggest increasing the memory limit beforehand:
+
+``` r
+options(future.globals.maxSize = 100000 * 1024^2)
+```
 
 ``` r
 library(NicheScribe)
@@ -121,6 +129,7 @@ InflammationPlot(seu)
 
 <img src="man/figures/README-example-swann2026-3.png" alt="" width="100%" />
 
+<!-- 
 ## Citation
-
-If you use **NicheScribe**, please cite:
+&#10;If you use **NicheScribe**, please cite:
+-->

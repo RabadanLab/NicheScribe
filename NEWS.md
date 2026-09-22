@@ -1,6 +1,10 @@
+# NicheScribe 0.3.1
+
+* Updated README.
+
 # NicheScribe 0.3.0
 
-* Updated cell type labels
+* Updated cell type labels.
 
 # NicheScribe 0.2.0
 
