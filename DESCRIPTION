@@ -2,7 +2,7 @@ Type: Package
 Package: NicheScribe
 Title: Consistent and Generalizable Annotation of Stromal Cells in the
     Murine Bone Marrow Niche
-Version: 0.3.1
+Version: 1.0.0
 Authors@R: c(
     person("Jun Hou", "Fung", , "jf3380@cumc.columbia.edu", role = c("cre", "aut"),
            comment = c(ORCID = "0000-0002-3734-6721")),

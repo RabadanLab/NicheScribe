@@ -1,7 +1,7 @@
 NicheScribeData <- new.env(parent=emptyenv())
 
 .reference_repo <- "RabadanLab/NicheScribe"
-.reference_version <- "v0.3.0"
+.reference_version <- "v1.0.0"
 
 .reference_path <- function() {
   file.path(tools::R_user_dir("NicheScribe", which = "data"), "reference")

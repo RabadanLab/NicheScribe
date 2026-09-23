@@ -1,3 +1,7 @@
+# NicheScribe 1.0.0
+
+* First public release
+
 # NicheScribe 0.3.1
 
 * Updated README.
